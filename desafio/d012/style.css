@@ -4,12 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 * {
-
     margin: 0px;
     padding: 0px;
 }
 
-body {
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,12 +18,16 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 330px;
 }
 
 header > h1 {
     font: bold 8.3em 'Passion One', cursive ;
-    padding: 95px 20px 20px 20px;   
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
 }
 
 a {
@@ -35,23 +40,29 @@ a:hover {
     text-decoration: underline;
 }
 
-section.texto {
-    font-family: 'Sriracha', cursive;
-    font-size: 4em;
-    padding: 100px 30px 110px 30px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    font-size: 4em;
+    padding-left: 30px;
+}
+
+section.texto {
+    background-color: white;
+    color: black;
+    font-family: 'Sriracha', cursive;
 }
 
 section.foto {
     color: white;
-    padding: 100px 30px 110px 30px;
     font-size: 4em;
     font-family: 'Sriracha', cursive;
 }
 
 section.foto > p {
     background-color: rgba(0, 0, 0, 0.377);
-    width: 750px;
+    width: 800px;
 }
 
 section#f1 {
