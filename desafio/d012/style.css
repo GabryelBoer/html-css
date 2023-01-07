@@ -53,9 +53,12 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 4em;
-    padding-left: 30px;
     font-size: 3.5vw;
+    padding-left: 30px;
+}
+
+section > p {
+    margin-bottom: 2em;
 }
 
 section.texto {
@@ -65,15 +68,16 @@ section.texto {
 
 section.foto {
     color: white;
+    box-shadow: inset 0px 7px 14px 0px #00000073;
 }
 
 section.foto > p {
-    background-color: rgba(0, 0, 0, 0.377);
     display: inline-block;
+    background-color: rgba(0, 0, 0, 0.377);
 }
 
 section#f1 {
-    background: black url('imagens/background001.jpg') center top / cover no-repeat fixed;
+    background: black url('imagens/background001.jpg') right center / cover no-repeat fixed;
 }
 
 section#f2 {
