@@ -19,6 +19,25 @@ header > h1 {
     padding: 10px;
 }
 
+span#burguer {
+    background-color: rgb(44, 44, 44);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: block;
+}
+
 menu > ul {
     list-style-type: none;
 }
