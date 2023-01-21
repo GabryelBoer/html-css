@@ -32,11 +32,11 @@ span#burguer {
 span#burguer:hover {
     background-color: white;
     color: black;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -56,6 +56,7 @@ menu > ul > li > a{
 
 menu > ul > li > a:hover {
     background-color: gray;
+    transition: background-color 0.2s;
 }
 
 main {
